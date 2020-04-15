@@ -77,7 +77,7 @@ def run():
 def l():
     exit = input('\033[1;0;40m [+] Do You Want To Download Video (y/n) : ')
     if exit == 'n' or exit == 'N':
-        break
+        sys.exit(1)
     else:
         run()
 l()
